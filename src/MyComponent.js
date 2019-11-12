@@ -5,10 +5,10 @@ export default function MyComponent() {
   console.log("cat");
   return (
     <div>
-      <h1>I was given a {cat}
+      <h1>I was given a
+        {cat}
         !</h1>
     </div>
   )
 }
-
 

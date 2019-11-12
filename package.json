@@ -34,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier standard --staged"
+      "pre-commit": "prettier-standard --staged"
     }
   }
 }
