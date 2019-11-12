@@ -4,7 +4,7 @@ export default function MyComponent (props) {
   const { pet } = props
 
   function methodDoesNotExist () {
-    throw new Error('UPDATED runtime exception')
+    throw new Error('NEW runtime exception')
   }
 
   return (
