@@ -6,8 +6,7 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 
 Sentry.init({
-  dsn: 'https://9d85846414e74966bb2cd35a0347ba14@sentry.io/1816402',
-  blacklistUrls: 'http://localhost:3000/'
+  dsn: 'https://9d85846414e74966bb2cd35a0347ba14@sentry.io/1816402'
 })
 
 ReactDOM.render(<App />, document.getElementById('root'))
