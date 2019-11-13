@@ -35,7 +35,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm version --patch && prettier-standard --staged"
+      "pre-commit": "npm version --patch && git add -A && prettier-standard --staged"
     }
   }
 }
